@@ -12,7 +12,7 @@ doesn't work seems to be consistent here, but we've seen it be fairly random,
 different on different boxes during the same process/rollout so it may not be
 completely deterministic.
 
-``
+```
 box:haproxy-reload ross$ ./run.sh
 Sending build context to Docker daemon  10.75kB
 Step 1/6 : FROM haproxy:1.8.26
