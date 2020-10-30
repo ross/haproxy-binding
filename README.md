@@ -2,7 +2,9 @@
 
 On a system with docker:
 
+```
 # ./run.sh
+```
 
 ### Example run:
 
