@@ -74,7 +74,8 @@ stats worked
 
 Setting sysctl `net.ipv4.ip_nonlocal_bind=1` (and `net.ipv6.ip_nonlocal_bind=1`
 if you're using IPv6 binds too) works around the issue.
-``
+
+```
 box:haproxy-reload ross$ ./run.sh --sysctl net.ipv4.ip_nonlocal_bind=1
 Sending build context to Docker daemon  10.75kB
 Step 1/6 : FROM haproxy:latest
