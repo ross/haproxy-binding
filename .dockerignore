@@ -1,0 +1,6 @@
+# Ignore everything by default
+*
+# Explicitly include the things we want
+!200_ok_*.http
+!haproxy-*.cfg
+!test.sh
